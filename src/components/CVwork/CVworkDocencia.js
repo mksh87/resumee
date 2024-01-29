@@ -28,17 +28,16 @@ function CVworkDocencia() {
               <div className="experience_data bd-grid">
                 <h3 className="experience_title">Docente Secundario</h3>
                 <span className="experience_company">
-                  2015 - A la fecha |
+                  2015 - A la fecha |{" "}
                   <a href="https://marktwain.edu.ar/" target="”_blank”">
                     Colegio Bilingüe Mark Twain
                   </a>
                 </span>
                 <p className="experience_description">
-                  Desde el año 2015 me desempeño como docente en las materias
-                  Matemática y Físcia (en castellano y en inglés). Preparo
-                  estudiantes para los IGCSE de la universidad de Cambridge.
-                  También entreno al equipo de Mark Twain que compite en la
-                  Olimpíada Matemática Argentina
+                  Docente en las materias Maths y Físcia (en castellano y en
+                  inglés). Preparo estudiantes para los IGCSE de la universidad
+                  de Cambridge. También entreno al equipo de Mark Twain que
+                  compite en la Olimpíada Matemática Argentina
                   <a href="https://www.oma.org.ar/" target="”_blank”">
                     (OMA)
                   </a>
@@ -53,22 +52,15 @@ function CVworkDocencia() {
               </div>
               <div className="experience_data bd-grid">
                 <span className="experience_company">
-                  2012 - 2019 |
+                  2012 - 2019 |{" "}
                   <a href="https://aa.edu.ar/" target="”_blank”">
                     Instituto Academia Argüello
                   </a>
                 </span>
                 <p className="experience_description">
-                  Desde el año 2012 me desempeño como docente en las materias
-                  Matemática y Físcia (en castellano y en inglés) en colegios
-                  privados de Córdoba. Primero en el Instituto Academia Argüello
-                  y actualmente en el Colegio Mark Twain. Preparo estudiantes
-                  para los IGCSE de la universidad de Cambridge. También entreno
-                  al equipo de Mark Twain que compite en la Olimpíada Matemática
-                  Argentina
-                  <a href="https://www.oma.org.ar/" target="”_blank”">
-                    (OMA)
-                  </a>
+                  Docente en las materias Maths y Mechanics (en castellano y en
+                  inglés), en la preparación de estudiantes para los IGCSE y
+                  AICE de la universidad de Cambridge.
                 </p>
               </div>
             </div>
@@ -79,21 +71,14 @@ function CVworkDocencia() {
               <div className="experience_data bd-grid">
                 <h3 className="experience_title">Docente Universitario</h3>
                 <span className="experience_company">
-                  2016 - 2019 |
+                  2016 - 2019 |{" "}
                   <a href="https://marktwain.edu.ar/" target="_blank">
                     UTN - Facultad Regional Córdoba
                   </a>
                 </span>
                 <p className="experience_description">
-                  Desde el año 2015 me desempeño como docente en las materias
-                  Matemática y Físcia (en castellano y en inglés) en colegios
-                  privados de Córdoba. Preparo estudiantes para los IGCSE de la
-                  universidad de Cambridge. También entreno al equipo de Mark
-                  Twain que compite en la Olimpíada Matemática Argentina
-                  <a href="https://www.oma.org.ar/" target="”_blank”">
-                    (OMA)
-                  </a>
-                  .
+                  Ayudante de cátedra de la materia "Control de Gestión" de 5º
+                  año de la carrera de Ingeniería Industrial.
                 </p>
               </div>
             </div>

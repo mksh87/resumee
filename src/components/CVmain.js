@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import "../assets/css/styles.css";
 import CVwork from "./CVwork";
+import CVschool from "./CVschool";
 import profpic from "../assets/img/profile.jpg";
 import profgif from "../assets/img/profile.gif";
+
+import { GB, ES, FR, DE } from "country-flag-icons/react/3x2";
 
 function CVmain() {
   const [isHovered, setIsHovered] = useState(false);
@@ -35,7 +38,6 @@ function CVmain() {
                 <h1 className="home_title">
                   Marcos <b>KESHISHIAN</b>
                 </h1>
-                <h3 className="home_profession">Docente</h3>
                 <div>
                   <a
                     download=""
@@ -106,98 +108,38 @@ function CVmain() {
               comunicación, flexibilidad, lógica, gestión y proactividad.
             </p>
           </section>
-
-          <section className="education section" id="education">
-            <h2 className="section-title">Formación</h2>
-            <div className="education_container bd-grid">
-              <div className="education_content">
-                <div className="education_time">
-                  <span className="education_rounder"></span>
-                  <span className="education_line"></span>
-                </div>
-                <div className="education_data bd-grid">
-                  <h3 className="education_title">Ingeniero Industrial</h3>
-                  <span className="education_studies">
-                    Universidad Tecnológica Nacional - Facultad Regional Córdoba
-                  </span>
-                  <span className="education_year">2006 - 2014</span>
-                </div>
-              </div>
-              <div className="education_content">
-                <div className="education_time">
-                  <span className="education_rounder"></span>
-                </div>
-                <div className="education_data bd-grid">
-                  <h3 className="education_title">
-                    Bachiller en humanidades e idiomas
-                  </h3>
-                  <span className="education_studies">
-                    Academia Argüello, Córdoba
-                  </span>
-                  <span className="education_year">2000 - 2005</span>
-                </div>
-              </div>
-            </div>
-          </section>
+        </div>
+        <div className="resume__right">
+          <CVschool />
+          <CVwork />
           <section className="skills section" id="skills">
             <h2 className="section-title">Habilidades</h2>
             <div className="skills_content bd-grid">
-              <ul className="skills_data">
-                <li className="skills_name">
-                  <span className="skills_circle"></span> HTML
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span> CSS
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span> BOOTSTRAP
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span> JAVASCRIPT
-                </li>
-              </ul>
-              <ul className="skills_data">
-                <li className="skills_name">
-                  <span className="skills_circle"></span>DATABASES
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span>ILLUSTRATOR
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span>COMUNICATION SKILLS
-                </li>
-                <li className="skills_name">
-                  <span className="skills_circle"></span>OFFICE
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-        <div className="resume__right">
-          <section className="experience section" id="experience">
-            <h2 className="section-title">EXPERIENCIA LABORAL</h2>
-            <div className="experience_container bd-grid">
-              <CVwork></CVwork>
-            </div>
-          </section>
-          <section className="certificate section" id="certificate">
-            <h2 className="section-title">Certificados</h2>
-            <div className="certificate_container bd-grid">
-              <div className="certificate_content">
-                <h3 className="certificate_title">
-                  Programación Imperativa en Javascript - 2023
-                </h3>
-              </div>
-              <div className="certificate_content">
-                <h3 className="certificate_title">
-                  Diplomatura en Gestión de Emprendimientos - 2016
-                </h3>
-              </div>
-              <div className="certificate_content">
-                <h3 className="certificate_title">
-                  Diplomatura en Gestión de Proyectos - 2015
-                </h3>
-              </div>
+              <li className="skills_name">
+                <span className="skills_circle"></span> HTML
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span> CSS
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span> BOOTSTRAP
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span> JAVASCRIPT
+              </li>
+
+              <li className="skills_name">
+                <span className="skills_circle"></span>DATABASES
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span>ILLUSTRATOR
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span>COMUNICATION SKILLS
+              </li>
+              <li className="skills_name">
+                <span className="skills_circle"></span>OFFICE
+              </li>
             </div>
           </section>
           <section className="languages section">
@@ -205,28 +147,27 @@ function CVmain() {
             <div className="languages_container">
               <ul className="languages_content bd-grid">
                 <li className="languages_name">
-                  <span className="languages_circle"></span> Español (nativo)
+                  <ES title="United States" className="langicons" /> Español
+                  (nativo)
                 </li>
                 <li className="languages_name">
-                  <span className="languages_circle"></span> Inglés (bilingüe)
+                  <GB title="United States" className="langicons" /> Inglés
+                  (bilingüe)
                 </li>
                 <li className="languages_name">
-                  <span className="languages_circle"></span> Frances
+                  <FR title="United States" className="langicons" /> Frances
                   (intermedio)
                 </li>
                 <li className="languages_name">
-                  <span className="languages_circle"></span> Alemán (básico)
-                </li>
-                <li className="languages_name">
-                  <span className="languages_circle"></span> Javascript
-                  (aprendiendo)
+                  <DE title="United States" className="langicons" /> Alemán
+                  (básico)
                 </li>
               </ul>
             </div>
           </section>
 
           <section className="interests section">
-            <h2 className="section-title">Interests</h2>
+            <h2 className="section-title">Intereses</h2>
             <div className="interests_container bd-grid">
               <div className="interests_content">
                 <i className="bx bx-code-alt interests_icon"></i>

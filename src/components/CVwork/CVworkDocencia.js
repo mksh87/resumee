@@ -15,7 +15,7 @@ function CVworkDocencia() {
       </h2>
       <div
         id="panelsStayOpen-collapseOne"
-        className="accordion-collapse collapse show"
+        className="accordion-collapse collapse"
         aria-labelledby="panelsStayOpen-headingOne"
       >
         <div className="accordion-body">

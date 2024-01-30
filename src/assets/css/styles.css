@@ -494,6 +494,8 @@ img {
 
 .skills_name,
 .languages_name{
+  margin-left: 2%;
+  margin-right: 2%;
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-3);
@@ -596,7 +598,7 @@ img {
 
   .resume{
     display: grid;
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .5fr 1.5fr;
     background-color: var(--container-color);
     box-shadow: 0 0 8px rgba(13, 12, 12, .15);
   }

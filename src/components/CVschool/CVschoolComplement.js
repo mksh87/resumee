@@ -26,6 +26,20 @@ function CVschoolComplement() {
                 <span className="experience_line"></span>
               </div>
               <div className="experience_data bd-grid">
+                <h3 className="experience_title">Laravel</h3>
+                <span className="experience_company">2024 | Autodidacta </span>
+                <p className="experience_description">
+                  Proyectos personales basado en Laravel (en proceso).
+                </p>
+              </div>
+            </div>
+
+            <div className="experience_content">
+              <div className="experience_time">
+                <span className="experience_rounder"></span>
+                <span className="experience_line"></span>
+              </div>
+              <div className="experience_data bd-grid">
                 <h3 className="experience_title">
                   Programación Imperativa en JavaScript
                 </h3>

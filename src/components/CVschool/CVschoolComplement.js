@@ -29,7 +29,8 @@ function CVschoolComplement() {
                 <h3 className="experience_title">Laravel</h3>
                 <span className="experience_company">2024 | Autodidacta </span>
                 <p className="experience_description">
-                  Proyectos personales basado en Laravel (en proceso).
+                  Proyectos personales basado en Laravel.
+          Web de predicciones deportivas: https://www.prodeamigos.com.ar
                 </p>
               </div>
             </div>
